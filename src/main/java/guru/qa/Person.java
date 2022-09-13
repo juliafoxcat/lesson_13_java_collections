@@ -9,7 +9,7 @@ public class Person {
         this.name = name;
     }
 
-    void addAge(int value) {
+    void increaseAge(int value) {
         this.age = age + value;
     }
 
@@ -17,7 +17,7 @@ public class Person {
         if (age > 65) {
             System.out.println("Я на пенсии :(");
         } else {
-            System.out.println("я еще молод!");
+            System.out.println("Я еще молод!");
         }
     }
 
