@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ThrillerFilms {
 
-    List<String> thrillers = new ArrayList<>();
+    private List<String> thrillers = new ArrayList<>();
 
     public void addThriller(String film) {
         thrillers.add(film);

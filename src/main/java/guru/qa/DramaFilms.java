@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DramaFilms {
-    Map<String, String> dramas = new HashMap<>();
+    private Map<String, String> dramas = new HashMap<>();
 
     public void addDrama(String movie,String director){
         dramas.put(movie, director);
